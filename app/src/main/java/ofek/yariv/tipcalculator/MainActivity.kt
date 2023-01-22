@@ -95,7 +95,7 @@ fun EditNumberField(
     value: String,
     onValueChange: (String) -> Unit,
     keyboardOptions: KeyboardOptions,
-    keyboardActions: KeyboardActions
+    keyboardActions: KeyboardActions,
     modifier: Modifier = Modifier
 ) {
     TextField(
